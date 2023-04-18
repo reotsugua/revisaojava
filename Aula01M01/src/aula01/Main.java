@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         
-        Long numero6 = 5L;
+        Long numero6 = 5_00_000L;
         numero6 = numero6+6;
 
         System.out.println("numero6 = " + numero6);
