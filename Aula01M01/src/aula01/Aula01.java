@@ -1,10 +1,8 @@
 package aula01;
 
 import java.math.BigInteger;
-import java.util.List;
-import java.util.Scanner;
 
-public class Main {
+public class Aula01 {
     public static void main(String[] args) {
         
         Long numero6 = 5_00_000L;
@@ -30,4 +28,5 @@ public class Main {
             System.out.println(n+" x "+i+" = "+n*i);
         }*/
     }
+
 }
