@@ -1,5 +1,6 @@
 package aula02;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class ManipulacaoString {
@@ -9,8 +10,14 @@ public class ManipulacaoString {
         String email = "email@gmail.com";
 
         System.out.println("Digite seu email: ");
-        String novoEmail = input.nextLine();
+        String novoEmail =
+                input.nextLine()
+                        .toLowerCase();
+
+
         // .trim é pra ignorar espaços antes e depois do digitado
-        System.out.println(novoEmail.equals(email.trim()));
+        System.out.println(email
+                .equals(novoEmail
+                        .trim()));
     }
 }
