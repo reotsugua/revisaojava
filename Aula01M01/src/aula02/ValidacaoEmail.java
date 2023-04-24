@@ -24,9 +24,12 @@ public class ValidacaoEmail {
         System.out.println("emailDepoisArroba = " + emailDepoisArroba);
         System.out.println("Validar entre @ e o . : " + (emailDepoisArroba.indexOf(".")>1));
         System.out.println("Validar depois do . : " + (emailDepoisArroba.length()>emailDepoisArroba.indexOf(".")+1));
+        System.out.println("Array dividido: " + Arrays.toString(novoEmail.split("@")));
+        System.out.println("Validar apenas um @: " + (novoEmail.split("@").length==2));
 
 
-        /*if (novoEmail.matches("^[\\w\\.-]+@([\\w\\-]+\\.)+[a-z]{2,4}$")) {
+        /* Expressão regular -> regex
+        if (novoEmail.matches("^[\\w\\.-]+@([\\w\\-]+\\.)+[a-z]{2,4}$")) {
             System.out.println("Endereço de email válido");
         } else {
             System.out.println("Endereço de email inválido");
