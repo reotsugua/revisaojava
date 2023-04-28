@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class Ex01 {
     public static void main(String[] args){
 
-        String frase = "Janeiro: 1543, Fevereiro: 1222, Março: 1234";
+        String frase = "Janeiro: 5999, Fevereiro: 5234, Março: 1245";
 
         BigInteger janeiro = new BigInteger(frase.substring(9, 13));
         BigInteger fevereiro = new BigInteger(frase.substring(26, 30));
