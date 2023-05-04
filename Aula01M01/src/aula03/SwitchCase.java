@@ -40,7 +40,9 @@ public class SwitchCase {
                 System.out.println("Você errou");
             }
 
-
         }
+
+        Integer num = tipoIdade.equals("criança")? 10 : 20;
+        System.out.println(num);
     }
 }
