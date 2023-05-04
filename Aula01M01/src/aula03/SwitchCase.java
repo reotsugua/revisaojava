@@ -27,7 +27,7 @@ public class SwitchCase {
 
         }*/
         switch (tipoIdade){
-            case "criança" ->
+            case "criança", "bebê" ->
                 System.out.println("Você é uma criança");
             case "adolescente" ->
                 System.out.println("Você é uma adolescente");
