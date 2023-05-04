@@ -1,5 +1,8 @@
 package aula03;
 
+import java.math.BigDecimal;
+import java.math.BigInteger;
+import java.math.RoundingMode;
 import java.util.Scanner;
 
 public class Funcoes {
@@ -48,8 +51,11 @@ public class Funcoes {
         return n1 - n2;
     }
 
-    public static Double somaValores(Double n1, Double n2){
-        return n1 + n2;
+    public static BigDecimal somaValores(Double n1, Double n2){
+        BigDecimal bn1 = new BigDecimal(n1);
+        BigDecimal bn2 = new BigDecimal(n2);
+        BigDecimal soma = bn1.add(bn2).setScale(2, RoundingMode.HALF_UP);
+        return soma;
 
     }
 
