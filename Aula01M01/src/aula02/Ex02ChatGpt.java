@@ -6,7 +6,7 @@ public class Ex02ChatGpt {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Digite o nome completo: ");
+        System.out.print("Digite seu nome completo: ");
         String nomeCompleto = scanner.nextLine();
 
         String[] partes = nomeCompleto.split(" "); // separa o nome completo em partes
