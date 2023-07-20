@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Listt {
     public static void main(String[] args){
+        System.out.println();
         String[] lista = new String[1];
         lista[0] = "posição 1";
 
